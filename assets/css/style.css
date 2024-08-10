@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------------------------custom-classes------------------ */
+.margin-classs {
+  margin-top: 4rem !important;
+}
+.padding-class {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+.custom-light-grey {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  ) !important;
+}
+
+.custom-hr {
+  width: 30px;
+  border-width: 2px;
+  margin: -9px auto;
+  color: green;
+  opacity: 80%;
+}
+
+/* ---------------------------header-section---------------- -- */
+.navbar-brand img {
+  max-height: 50px;
+}
+
+
+
+/* ---------------------------hero-section---------------- -- */
+.herosection {
+  background: url("../images/empowering.webp");
+}
+
+
+.playbtn:hover {
+  background-color: #28a745 !important;
+  color: white !important;
+}
+
+.active-btn {
+  background-color: #28a745 !important; /* Success color */
+  color: white !important;
+}
+
+.form-container {
+  max-width: 400px; /* Adjust the max-width as per your design needs */
+  width: 100%;
+  margin: auto; /* Center horizontally */
+  background-color: #fff;
+  opacity: 70%;
+}
+
+.form-control:focus {
+  border-color: #021c38;
+  box-shadow: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: none; /* Remove default border */
+  border-bottom: 1px solid #000000; /* Add bottom border */
+  border-radius: 0; /* Ensure no rounded corners */
+  padding: 0; /* Remove default padding */
+  width: 100%;
+  padding-top: 1.4rem; /* Adjust top padding for alignment */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #0883ff; /* Change border color on focus */
+  box-shadow: none; /* Remove box-shadow on focus */
+}
+.mt-6 {
+  margin-top: 5.5rem !important;
+}
+
+.icon {
+  color: white !important;
+  background-color: #198754;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  padding: 1.2rem 1.3rem;
+}
+
+.error {
+  color: red;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/*--------------------------card-section---------------- -- */
+.card .card-text {
+  font-size: 0.7rem;
+}
+
+.card,
+.userform,
+.description {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover,
+.description:hover,
+.userform:hover {
+  transform: scale(1.05);
+}
+
+/*--------------------------slider-section---------------- -- */
+
+.owl-dots button.owl-dot {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid black;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #198754;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+/*--------------------------footer-section---------------- -- */
+.footer p {
+  font-size: 0.7rem;
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 767px) {
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.btn {
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.bg-success {
+  background-color: #28a745 !important ;
+  color: #ffffff !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.active-btn {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+.booknowbutton {
+  background-color: crimson;
+  border: none;
+  width: 220px;
+  color: #fff;
+}
+
+.booknowbutton:hover {
+  background-color: #cf2e2e;
+  color: yellow;
+}
+
