@@ -11,15 +11,15 @@ $(document).ready(function () {
     iframe: {
       patterns: {
         vimeo: {
-          index: "",
-          id: "",
-          src: "/Sesitglobal_task01/assets/videos/training.mp4",
+          index: '', 
+          id: '', 
+          src:'/assets/videos/training.mp4', 
         },
       },
       srcAction: "iframe_src",
     },
   });
-  
+
 
   //<!-------------------Form-validation-rules----------------------->
   $("#userform").validate({
