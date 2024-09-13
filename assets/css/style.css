@@ -42,6 +42,9 @@ html {
 /* ---------------------------hero-section---------------- -- */
 .herosection {
   background: url("../images/empowering.webp");
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size:cover;
 }
 
 
